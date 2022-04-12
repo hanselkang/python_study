@@ -17,10 +17,3 @@ class Card:
 
     def __str__(self):
         return self.rank + " of " + self.suit
-
-
-three_of_clubs = Card("Clubs", "Three")
-two_hearts = Card("Hearts", "Two")
-
-print(two_hearts)
-print(two_hearts.rank)
